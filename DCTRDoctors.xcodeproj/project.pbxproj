@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		04B59C271B838B4C0061FFFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C261B838B4C0061FFFC /* main.m */; };
-		04B59C2A1B838B4C0061FFFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C291B838B4C0061FFFC /* AppDelegate.m */; };
+		04B59C2A1B838B4C0061FFFC /* DCTRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C291B838B4C0061FFFC /* DCTRAppDelegate.m */; };
 		04B59C2D1B838B4C0061FFFC /* DCTRDoctors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C2B1B838B4C0061FFFC /* DCTRDoctors.xcdatamodeld */; };
-		04B59C301B838B4C0061FFFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C2F1B838B4C0061FFFC /* ViewController.m */; };
+		04B59C301B838B4C0061FFFC /* DCTRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C2F1B838B4C0061FFFC /* DCTRTableViewController.m */; };
 		04B59C331B838B4C0061FFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B59C311B838B4C0061FFFC /* Main.storyboard */; };
 		04B59C351B838B4C0061FFFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B59C341B838B4C0061FFFC /* Images.xcassets */; };
 		04B59C381B838B4C0061FFFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B59C361B838B4C0061FFFC /* LaunchScreen.xib */; };
 		04B59C441B838B4C0061FFFC /* DCTRDoctorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C431B838B4C0061FFFC /* DCTRDoctorsTests.m */; };
+		04B59C4E1B838D780061FFFC /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 04B59C4D1B838D780061FFFC /* Images */; };
+		04B59C511B8390730061FFFC /* DCTRDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C501B8390730061FFFC /* DCTRDataSource.m */; };
+		04B59C541B83A2170061FFFC /* DCTRDoctors.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B59C531B83A2170061FFFC /* DCTRDoctors.m */; };
+		04F811721B8CE3980089280E /* DCTRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F811711B8CE3980089280E /* DCTRTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +35,24 @@
 		04B59C211B838B4C0061FFFC /* DCTRDoctors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCTRDoctors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B59C251B838B4C0061FFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B59C261B838B4C0061FFFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04B59C281B838B4C0061FFFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04B59C291B838B4C0061FFFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B59C281B838B4C0061FFFC /* DCTRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTRAppDelegate.h; sourceTree = "<group>"; };
+		04B59C291B838B4C0061FFFC /* DCTRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTRAppDelegate.m; sourceTree = "<group>"; };
 		04B59C2C1B838B4C0061FFFC /* DCTRDoctors.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DCTRDoctors.xcdatamodel; sourceTree = "<group>"; };
-		04B59C2E1B838B4C0061FFFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04B59C2F1B838B4C0061FFFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B59C2E1B838B4C0061FFFC /* DCTRTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTRTableViewController.h; sourceTree = "<group>"; };
+		04B59C2F1B838B4C0061FFFC /* DCTRTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTRTableViewController.m; sourceTree = "<group>"; };
 		04B59C321B838B4C0061FFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04B59C341B838B4C0061FFFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04B59C371B838B4C0061FFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04B59C3D1B838B4C0061FFFC /* DCTRDoctorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTRDoctorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B59C421B838B4C0061FFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04B59C431B838B4C0061FFFC /* DCTRDoctorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTRDoctorsTests.m; sourceTree = "<group>"; };
+		04B59C4D1B838D780061FFFC /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = DCTRDoctors/Images; sourceTree = "<group>"; };
+		04B59C4F1B8390730061FFFC /* DCTRDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTRDataSource.h; sourceTree = "<group>"; };
+		04B59C501B8390730061FFFC /* DCTRDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTRDataSource.m; sourceTree = "<group>"; };
+		04B59C521B83A2170061FFFC /* DCTRDoctors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTRDoctors.h; sourceTree = "<group>"; };
+		04B59C531B83A2170061FFFC /* DCTRDoctors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTRDoctors.m; sourceTree = "<group>"; };
+		04F811701B8CE3980089280E /* DCTRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTRTableViewCell.h; sourceTree = "<group>"; };
+		04F811711B8CE3980089280E /* DCTRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTRTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 		04B59C181B838B4C0061FFFC = {
 			isa = PBXGroup;
 			children = (
+				04B59C4D1B838D780061FFFC /* Images */,
 				04B59C231B838B4C0061FFFC /* DCTRDoctors */,
 				04B59C401B838B4C0061FFFC /* DCTRDoctorsTests */,
 				04B59C221B838B4C0061FFFC /* Products */,
@@ -83,10 +95,16 @@
 		04B59C231B838B4C0061FFFC /* DCTRDoctors */ = {
 			isa = PBXGroup;
 			children = (
-				04B59C281B838B4C0061FFFC /* AppDelegate.h */,
-				04B59C291B838B4C0061FFFC /* AppDelegate.m */,
-				04B59C2E1B838B4C0061FFFC /* ViewController.h */,
-				04B59C2F1B838B4C0061FFFC /* ViewController.m */,
+				04B59C521B83A2170061FFFC /* DCTRDoctors.h */,
+				04B59C531B83A2170061FFFC /* DCTRDoctors.m */,
+				04F811701B8CE3980089280E /* DCTRTableViewCell.h */,
+				04F811711B8CE3980089280E /* DCTRTableViewCell.m */,
+				04B59C4F1B8390730061FFFC /* DCTRDataSource.h */,
+				04B59C501B8390730061FFFC /* DCTRDataSource.m */,
+				04B59C2E1B838B4C0061FFFC /* DCTRTableViewController.h */,
+				04B59C2F1B838B4C0061FFFC /* DCTRTableViewController.m */,
+				04B59C281B838B4C0061FFFC /* DCTRAppDelegate.h */,
+				04B59C291B838B4C0061FFFC /* DCTRAppDelegate.m */,
 				04B59C311B838B4C0061FFFC /* Main.storyboard */,
 				04B59C341B838B4C0061FFFC /* Images.xcassets */,
 				04B59C361B838B4C0061FFFC /* LaunchScreen.xib */,
@@ -202,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B59C4E1B838D780061FFFC /* Images in Resources */,
 				04B59C331B838B4C0061FFFC /* Main.storyboard in Resources */,
 				04B59C381B838B4C0061FFFC /* LaunchScreen.xib in Resources */,
 				04B59C351B838B4C0061FFFC /* Images.xcassets in Resources */,
@@ -222,10 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04B59C2A1B838B4C0061FFFC /* AppDelegate.m in Sources */,
+				04B59C2A1B838B4C0061FFFC /* DCTRAppDelegate.m in Sources */,
+				04F811721B8CE3980089280E /* DCTRTableViewCell.m in Sources */,
 				04B59C2D1B838B4C0061FFFC /* DCTRDoctors.xcdatamodeld in Sources */,
-				04B59C301B838B4C0061FFFC /* ViewController.m in Sources */,
+				04B59C301B838B4C0061FFFC /* DCTRTableViewController.m in Sources */,
 				04B59C271B838B4C0061FFFC /* main.m in Sources */,
+				04B59C511B8390730061FFFC /* DCTRDataSource.m in Sources */,
+				04B59C541B83A2170061FFFC /* DCTRDoctors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +442,7 @@
 				04B59C491B838B4C0061FFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B59C4A1B838B4C0061FFFC /* Build configuration list for PBXNativeTarget "DCTRDoctorsTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +451,7 @@
 				04B59C4C1B838B4C0061FFFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
